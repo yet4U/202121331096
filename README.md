@@ -10,15 +10,7 @@ import java.math.BigInteger;
 import java.util.*;
  
 /**
- * System:     BBS论坛系统
- * Department:  研发一组
- * Title:       [aiyou-bbs — SimHashUtil 模块]
- * Description: [SimHash 标题内容相似度算法工具类]
- * Created on:  2020-04-01
- * Contacts:    [who.seek.me@java98k.vip]
- *
- * @author huazai
- * @version V1.1.0
+*
  */
 public class SimHashUtil {
  
@@ -51,9 +43,6 @@ public class SimHashUtil {
     /**
      * Description:[分词计算向量]
      *
-     * @return BigInteger
-     * @date 2020-04-01
-     * @author huazai
      */
     private BigInteger simHash() {
  
@@ -141,9 +130,6 @@ public class SimHashUtil {
     /**
      * Description:[计算单个分词的hash值]
      *
-     * @return BigInteger
-     * @date 2020-04-01
-     * @author huazai
      */
     private BigInteger getWordHash(String word) {
  
@@ -185,9 +171,6 @@ public class SimHashUtil {
     /**
      * Description:[过滤特殊字符]
      *
-     * @return BigInteger
-     * @date 2020-04-01
-     * @author huazai
      */
     private String clearSpecialCharacters(String topicName) {
  
@@ -209,9 +192,6 @@ public class SimHashUtil {
     /**
      * Description:[获取标题内容的相似度]
      *
-     * @return Double
-     * @date 2020-04-01
-     * @author huazai
      */
     public Double getSimilar(SimHashUtil simHashUtil) {
  
@@ -229,9 +209,6 @@ public class SimHashUtil {
     /**
      * Description:[获取标题内容的海明距离]
      *
-     * @return Double
-     * @date 2020-04-01
-     * @author huazai
      */
     private int getHammingDistance(SimHashUtil simHashUtil) {
  
